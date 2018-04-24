@@ -118,16 +118,16 @@ moon:
       salt: '{cipher}5227e37982548a2ba359053dc03ed4110c028d051cf136416156babac0b483c9ec3c169790e46352e0b599c6227e554dd9def7f1f7780611ae36af2ae8336797'
   amqp:
     rabbit:
-      remote-exchange: remote.direct.exchange2
-      remote-queue: remote.direct.queue2
-      server-data-queue: server.data.direct.queue2
-      server-data-exchange: server.data.direct.exchange2
-      client-data-queue: client.data.direct.queue2
-      client-data-exchange: client.data.direct.exchange2
-      server-event-queue: server.event.direct.queue2
-      server-event-exchange: server.event.direct.exchange2
-      client-event-exchange: client.event.direct.exchange2
-      client-event-queue: client.event.direct.queue2
+      remote-exchange: remote.direct.exchange3
+      remote-queue: remote.direct.queue3
+      server-data-queue: server.data.direct.queue3
+      server-data-exchange: server.data.direct.exchange3
+      client-data-queue: client.data.direct.queue3
+      client-data-exchange: client.data.direct.exchange3
+      server-event-queue: server.event.direct.queue3
+      server-event-exchange: server.event.direct.exchange3
+      client-event-exchange: client.event.direct.exchange3
+      client-event-queue: client.event.direct.queue3
       # Spider queue
       vpn-seeds-exchange: vpn.direct.exchange4
       vpn-seeds-data-queue: vpn.data.direct.queue4
