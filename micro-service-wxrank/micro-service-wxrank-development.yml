@@ -152,3 +152,27 @@ moon:
 ##########################
 ### APPLICATION CONFIG ###
 ##########################
+application:
+  image:
+    baseUrl: http://static.budee.com/yyren/image/
+  scheduler:
+    enable:
+      index: true
+      translation: false
+      update:
+        timer: false
+      water:
+        print: false
+      history:
+        cache: false
+  rest:
+    support:
+      host: 192.168.1.248
+  admin:
+    quartz:                           ### 是否开启后台管理的调度中心
+      enable: true
+mifan:
+  proxy:
+    isUse: true
+    server: 192.168.1.138
+    port: 3128
