@@ -207,7 +207,7 @@ application:
       index: true
       translation: false
       exchange-rate: true
-      mail: true
+      mail: false
       update:
         timer: false
       water:
