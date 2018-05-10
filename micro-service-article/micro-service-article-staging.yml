@@ -217,6 +217,7 @@ application:
     enable:
       index: false
       translation: false
+      mail: false
       update:
         timer: false
       water:
