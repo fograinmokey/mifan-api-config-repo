@@ -206,6 +206,7 @@ application:
     enable:
       index: true
       translation: false
+      exchange-rate: true
       update:
         timer: false
       water:
