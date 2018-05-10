@@ -217,6 +217,8 @@ application:
     enable:
       index: true
       translation: true
+      exchange-rate: true
+      mail: true
       update:
         timer: true
       water:
